@@ -1,0 +1,93 @@
+.main-container {
+  padding: 20px !important;
+}
+
+.auth-text-section {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+.auth-text-section h5 {
+  color: rgb(95, 75, 75);
+  font-size: 16px !important;
+}
+
+.auth-text-section p {
+  color: rgb(108, 88, 88);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.auth-text-section p span {
+  cursor: pointer;
+  text-decoration: none;
+  background: none !important;
+  color: rgb(123, 156, 248) !important;
+  font-size: 16px;
+}
+
+.main-auth-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 2px 20px 2px;
+  margin-bottom: 40px !important;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(168, 166, 166, 0.8);
+  background: #fff;
+}
+
+.main-auth-section .text-section {
+  margin-top: 10px;
+}
+
+.main-auth-section .auth-google-button,
+.main-auth-section .auth-facebook-button {
+  margin-top: 10px;
+}
+
+.main-auth-section .auth-button {
+  background: #ff5e14;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.main-auth-section .auth-button:hover {
+  background: #ff5e14;
+  color: #fff;
+}
+
+.MuiTextField-root {
+  margin-top: 15px !important;
+}
+
+.input-value {
+  margin-top: 10px;
+  border: 1px solid #c2b5b5;
+  border-radius: 4px;
+  padding: 16px 10px;
+}
+
+.input-value:hover {
+  border: 1px solid #4b4b4b;
+}
+
+.input-value:active {
+  border: 2px solid rgb(66, 66, 185);
+}
+
+.forgotBtn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgotBtn > a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main-auth-section {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,68 @@
+.main-container {
+  padding: 20px !important;
+}
+
+.edit-profile-section {
+  padding: 20px 2px 20px 2px;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px rgba(168, 166, 166, 0.8);
+  background: #fff;
+}
+
+.edit-profile-section h3 {
+  font-size: 22px;
+  color: rgb(44, 42, 42);
+  font-weight: bold;
+}
+
+.edit-profile-section p {
+  color: rgb(41, 38, 38);
+  font-size: 14px;
+}
+
+.edit-profile-section label {
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.edit-profile-section input {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px 5px;
+  border-radius: 2px;
+  background-color: #fffafa;
+  border: 1px solid rgb(223, 205, 205) !important;
+}
+
+.change-password-btn {
+  text-decoration: none;
+  border-radius: 2px;
+  background: #e9e9e9;
+  color: #000000;
+  margin: 10px 5px;
+  padding: 10px 10px;
+}
+
+.change-password-btn:hover {
+  text-decoration: none;
+  border-radius: 2px;
+  background: #e9e9e9;
+  color: #000000;
+  margin: 10px 5px;
+  padding: 10px 10px;
+}
+
+#save-button {
+  border-radius: 2px;
+  background: #ff5e14;
+  margin: 10px 5px;
+  color: #fff;
+}
+
+#save-button:hover {
+  background: #ff5e14;
+  color: #fff;
+}
